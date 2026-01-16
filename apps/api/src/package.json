@@ -4,9 +4,12 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+
     "test:anthropic": "tsx test-anthropic.js",
     "typecheck": "turbo run typecheck",
-    "start": "node dist/index.js",
+
     "migrate": "npx tsx apps/api/src/db/migrate.ts",
     "db:push": "drizzle-kit push --config ../drizzle.config.cjs",
     "db:generate": "drizzle-kit generate --config ../drizzle.config.cjs",
