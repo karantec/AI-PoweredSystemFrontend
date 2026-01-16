@@ -1,8 +1,8 @@
-# 🤖 AI-Powered Customer Support System
+#  AI-Powered Customer Support System
 
 A fullstack multi-agent customer support system with intelligent routing, specialized agents, and real-time streaming responses.
 
-## 🎯 Features
+##  Features
 
 ### ✅ Multi-Agent Architecture
 - **Router Agent**: Analyzes queries and routes to appropriate specialist
@@ -38,7 +38,7 @@ A fullstack multi-agent customer support system with intelligent routing, specia
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/karantec/AI-PoweredSystemFrontend.git
 cd customer-support-ai
 ```
 
@@ -281,7 +281,7 @@ npm run build
 
 ## 👨‍💻 Developer
 
-Created by [Your Name]
+Created by Karan Rana
 
 ## 📄 License
 
